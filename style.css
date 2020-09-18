@@ -27,7 +27,7 @@ body {
   border-radius: 20px;
   background-color: rgba(75, 75, 75, 0.5);
   box-shadow: 0 10px 10px 10px rgba(65, 65, 65, 0.25);
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   font-style: oblique;
 }
 
@@ -125,6 +125,22 @@ button:active {
   }
 
   .quote-text {
+    font-size: 1.7rem;
+  }
+}
+
+/* Media Query: iPad & Tablets*/
+@media all and (max-width: 1000px) and (min-width: 200px) {
+  .heading-container {
+    margin: 10%;
+    margin-top: 15%;
+  }
+
+  .quote-container {
+    margin-bottom: 20%;
+  }
+
+  .heading {
     font-size: 1.7rem;
   }
 }
